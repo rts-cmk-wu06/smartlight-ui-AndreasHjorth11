@@ -11,6 +11,9 @@ module.exports = {
       colors: {
         'light-white': '#F6F8FB',
       },
+      margin: {
+        lx: '600px',
+      },
     },
   },
   plugins: [],
