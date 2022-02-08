@@ -41,13 +41,13 @@ const Controls = () => {
                 <div className='h-16 w-86 mt-4'>
                     <motion.div animate={{ opacity: 1 }} transition={{ease: "easeOut", duration: 1}} className='text-2xl font-bold ml-6 relative opacity-0'>Colors</motion.div>
                     <div className='mt-8 flex ml-6'>
-                        <motion.div animate={{ x: 10 }} transition={{ease: "easeOut", duration: 1}} className='h-6 w-6 bg-red-400 rounded-full z-10'></motion.div>
-                        <motion.div animate={{ x: 40 }} transition={{ease: "easeOut", duration: 1}} className='h-6 w-6 bg-green-400 rounded-full z-20 -ml-2'></motion.div>
-                        <motion.div animate={{ x: 70 }} transition={{ease: "easeOut", duration: 1}} className='h-6 w-6 bg-blue-400 rounded-full z-30 -ml-2'></motion.div>
-                        <motion.div animate={{ x: 100 }} transition={{ease: "easeOut", duration: 1}} className='h-6 w-6 bg-purple-400 rounded-full z-40 -ml-2'></motion.div>
-                        <motion.div animate={{ x: 130 }} transition={{ease: "easeOut", duration: 1}} className='h-6 w-6 bg-fuchsia-400 rounded-full z-50 -ml-2'></motion.div>
-                        <motion.div animate={{ x: 160 }} transition={{ease: "easeOut", duration: 1}} className='h-6 w-6 bg-amber-400 rounded-full z-50 -ml-2'></motion.div>
-                        <motion.div animate={{ x: 200 }} transition={{ease: "easeOut", duration: 1}} className='h-6 w-6 bg-gray-200 rounded-full text-center font-semibold z-50 -ml-2'>+</motion.div>
+                        <motion.button animate={{ x: 10 }} transition={{ease: "easeOut", duration: 1}} className='h-6 w-6 bg-red-400 rounded-full z-10'></motion.button>
+                        <motion.button animate={{ x: 40 }} transition={{ease: "easeOut", duration: 1}} className='h-6 w-6 bg-green-400 rounded-full z-20 -ml-2'></motion.button>
+                        <motion.button animate={{ x: 70 }} transition={{ease: "easeOut", duration: 1}} className='h-6 w-6 bg-blue-400 rounded-full z-30 -ml-2'></motion.button>
+                        <motion.button animate={{ x: 100 }} transition={{ease: "easeOut", duration: 1}} className='h-6 w-6 bg-purple-400 rounded-full z-40 -ml-2'></motion.button>
+                        <motion.button animate={{ x: 130 }} transition={{ease: "easeOut", duration: 1}} className='h-6 w-6 bg-fuchsia-400 rounded-full z-50 -ml-2'></motion.button>
+                        <motion.button animate={{ x: 160 }} transition={{ease: "easeOut", duration: 1}} className='h-6 w-6 bg-amber-400 rounded-full z-50 -ml-2'></motion.button>
+                        <motion.button animate={{ x: 200 }} transition={{ease: "easeOut", duration: 1}} className='h-6 w-6 bg-gray-200 rounded-full text-center font-semibold z-50 -ml-2'>+</motion.button>
                     </div>
                 </div>
                 <div className='h-16 w-86 mt-16'>

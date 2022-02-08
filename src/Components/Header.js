@@ -1,5 +1,6 @@
 import logo from '../Ellipse 20.png';
 import { Link } from 'react-router-dom';
+import { motion } from "framer-motion"
 var ControlText = "Control";
 
 

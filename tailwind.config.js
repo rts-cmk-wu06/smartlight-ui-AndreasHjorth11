@@ -7,6 +7,7 @@ module.exports = {
       height: {
         'height-656': '620px',
         'height-640': '620px',
+        'height-500': '500px',
       },
       colors: {
         'light-white': '#F6F8FB',
