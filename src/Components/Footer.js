@@ -1,6 +1,7 @@
 import bulbicon from '../bulb.png';
 import iconhome from '../Icon feather-home.png';
 import iconsettings from '../Icon feather-settings.png';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return ( 

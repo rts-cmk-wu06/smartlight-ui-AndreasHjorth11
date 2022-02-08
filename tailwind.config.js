@@ -10,6 +10,7 @@ module.exports = {
       },
       colors: {
         'light-white': '#F6F8FB',
+        'birthday': '#FF9B9B',
       },
       margin: {
         lx: '600px',
