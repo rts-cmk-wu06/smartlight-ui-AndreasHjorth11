@@ -1,6 +1,6 @@
 # Praktisk web - smartlights
 
-![](https://github.com/rts-cmk-opgaver/praktikperiode-smartlights/blob/main/ctrlpanel.png)
+![](![image](https://user-images.githubusercontent.com/77662628/154048509-3b30fec5-87ba-4904-b86f-5c4f54a44856.png))
 <br>*Ikke i korrekt skala*
 
 ## Opgavebeskrivelse
