@@ -1,6 +1,6 @@
 # Praktisk web - smartlights
 
-![](![image](https://user-images.githubusercontent.com/77662628/154048509-3b30fec5-87ba-4904-b86f-5c4f54a44856.png))
+![image](https://user-images.githubusercontent.com/77662628/154048574-3197e22f-b706-478a-acd2-77639d26f238.png)
 <br>*Ikke i korrekt skala*
 
 ## Opgavebeskrivelse
