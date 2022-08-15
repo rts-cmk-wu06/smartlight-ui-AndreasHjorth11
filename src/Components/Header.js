@@ -14,7 +14,8 @@ const Header = () => {
                 <div className='h-40 bg-white/5 rounded-full w-40 absolute mt-12 ml-20 z-0'></div>
             </div>
             <div className='self-center'>
-                <div className='h-3 bg-red-400 rounded-full w-3 absolute mt-10 ml-14 z-10'></div>
+                <div className='h-3 bg-pink-600 rounded-full w-3 absolute mt-10 ml-14 z-10'></div>
+                <div className='h-3 bg-rose-700 rounded-full w-3 absolute mt-10 ml-14 z-10 animate-ping'></div>
                 <img src={logo} className='scale-105 mt-6 mr-3'></img>
             </div>
         </div>

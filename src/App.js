@@ -3,6 +3,8 @@ import Home from "./Pages/Home";
 import Bed from "./Pages/Bed";
 import Footer from "./Components/Footer";
 import { motion } from "framer-motion"
+import LivingRoom from "./Pages/LivingRoom";
+import Kitchen from "./Pages/Kitchen";
 
 function App() {
   return (
@@ -10,7 +12,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/bedroom" element={<Bed />} />
+          <Route path="/bed-room" element={<Bed />} />
+          <Route path="/living-room" element={<LivingRoom />} />
+          <Route path="/kitchen" element={<Kitchen />} />
         </Routes>
         <Footer />
       </BrowserRouter>
