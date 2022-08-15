@@ -1,7 +1,6 @@
-// import Slider from 'react-input-slider';
 import Slider from "rc-slider";
 import "./SliderControl.css";
-import Color from "./Controls/Bed Room/Color";
+import Colour from "./Controls/LivingRoom/Colour";
 import "rc-slider/assets/index.css";
 import { motion } from "framer-motion";
 import { FaRegLightbulb } from "react-icons/fa";
@@ -10,7 +9,7 @@ import { Link } from "react-router-dom";
 import { useState, useEffect, useMemo } from "react";
 import _ from "lodash";
 
-function Controls() {
+function LoungeControls() {
   const [brightness, setBrightness] = useState(50);
 
   const changeBri = (value) => {
@@ -22,7 +21,7 @@ function Controls() {
   // const [state, setState] = useState({ x: 10 });
   useEffect(() => {
     fetch(
-      "http://192.168.8.100/api/qjFRqc--SdeaB4gl-cYIb96qmqVY2ydjUsz0usAv/groups/2/action",
+      "http://192.168.8.100/api/qjFRqc--SdeaB4gl-cYIb96qmqVY2ydjUsz0usAv/groups/13/action",
       {
         method: "PUT",
         body: JSON.stringify({
@@ -34,7 +33,7 @@ function Controls() {
 
   useEffect(() => {
     fetch(
-      "http://192.168.8.100/api/qjFRqc--SdeaB4gl-cYIb96qmqVY2ydjUsz0usAv/groups/2/action",
+      "http://192.168.8.100/api/qjFRqc--SdeaB4gl-cYIb96qmqVY2ydjUsz0usAv/groups/13/action",
       {
         method: "PUT",
         body: JSON.stringify({
@@ -87,7 +86,7 @@ function Controls() {
               animate={{ x: 10 }}
               transition={{ ease: "easeOut", duration: 1 }}
             >
-              <Color
+              <Colour
                 r="220"
                 g="20"
                 b="60"
@@ -98,7 +97,7 @@ function Controls() {
               animate={{ x: 25 }}
               transition={{ ease: "easeOut", duration: 1 }}
             >
-              <Color
+              <Colour
                 r="0"
                 g="255"
                 b="128"
@@ -109,7 +108,7 @@ function Controls() {
               animate={{ x: 40 }}
               transition={{ ease: "easeOut", duration: 1 }}
             >
-              <Color
+              <Colour
                 r="0"
                 g="150"
                 b="255"
@@ -120,7 +119,7 @@ function Controls() {
               animate={{ x: 55 }}
               transition={{ ease: "easeOut", duration: 1 }}
             >
-              <Color
+              <Colour
                 r="208"
                 g="60"
                 b="251"
@@ -131,7 +130,7 @@ function Controls() {
               animate={{ x: 70 }}
               transition={{ ease: "easeOut", duration: 1 }}
             >
-              <Color
+              <Colour
                 r="148"
                 g="90"
                 b="251"
@@ -142,7 +141,7 @@ function Controls() {
               animate={{ x: 85 }}
               transition={{ ease: "easeOut", duration: 1 }}
             >
-              <Color
+              <Colour
                 r="255"
                 g="185"
                 b="0"
@@ -153,7 +152,7 @@ function Controls() {
               animate={{ x: 100 }}
               transition={{ ease: "easeOut", duration: 1 }}
             >
-              <Color
+              <Colour
                 r="122"
                 g="40"
                 b="90"
@@ -219,4 +218,4 @@ function Controls() {
   );
 }
 
-export default Controls;
+export default LoungeControls;

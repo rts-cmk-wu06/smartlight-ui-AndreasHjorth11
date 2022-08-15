@@ -12,6 +12,7 @@ module.exports = {
       colors: {
         'light-white': '#F6F8FB',
         'birthday': '#FF9B9B',
+        'backGround': '#0A4DA2',
       },
       margin: {
         lx: '600px',
