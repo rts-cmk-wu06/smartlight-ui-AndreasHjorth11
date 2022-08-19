@@ -88,9 +88,9 @@ function Controls() {
               transition={{ ease: "easeOut", duration: 1 }}
             >
               <Color
-                r="220"
-                g="20"
-                b="60"
+                r="255"
+                g="185"
+                b="0"
                 className="h-6 w-6 rounded-full z-10"
               />
             </motion.div>
@@ -99,9 +99,9 @@ function Controls() {
               transition={{ ease: "easeOut", duration: 1 }}
             >
               <Color
-                r="0"
-                g="255"
-                b="128"
+                r="245"
+                g="222"
+                b="179"
                 // className="h-6 w-6 bg-red-400 rounded-full z-10"
               />
             </motion.div>
@@ -110,9 +110,9 @@ function Controls() {
               transition={{ ease: "easeOut", duration: 1 }}
             >
               <Color
-                r="0"
-                g="150"
-                b="255"
+                r="255"
+                g="0"
+                b="0"
                 // className="h-6 w-6 bg-red-400 rounded-full z-10"
               />
             </motion.div>
@@ -121,9 +121,9 @@ function Controls() {
               transition={{ ease: "easeOut", duration: 1 }}
             >
               <Color
-                r="208"
-                g="60"
-                b="251"
+                r="255"
+                g="20"
+                b="147"
                 // className="h-6 w-6 bg-red-400 rounded-full z-10"
               />
             </motion.div>
@@ -132,9 +132,9 @@ function Controls() {
               transition={{ ease: "easeOut", duration: 1 }}
             >
               <Color
-                r="148"
-                g="90"
-                b="251"
+                r="139"
+                g="0"
+                b="139"
                 // className="h-6 w-6 bg-red-400 rounded-full z-10"
               />
             </motion.div>
@@ -143,9 +143,9 @@ function Controls() {
               transition={{ ease: "easeOut", duration: 1 }}
             >
               <Color
-                r="255"
-                g="185"
-                b="0"
+                r="25"
+                g="25"
+                b="122"
                 // className="h-6 w-6 bg-red-400 rounded-full z-10"
               />
             </motion.div>
@@ -154,9 +154,9 @@ function Controls() {
               transition={{ ease: "easeOut", duration: 1 }}
             >
               <Color
-                r="122"
-                g="40"
-                b="90"
+                r="0"
+                g="0"
+                b="255"
                 // className="h-6 w-6 bg-red-400 rounded-full z-10"
               />
             </motion.div>
@@ -205,7 +205,7 @@ function Controls() {
             <motion.button
               animate={{ x: 50 }}
               transition={{ ease: "easeOut", duration: 1 }}
-              className="bg-gradient-to-r from-lime-400 to-emerald-400 w-36 h-16 text-white rounded-2xl z-20 -ml-6 font-bold"
+              className="bg-gradient-to-r from-emerald-400 to-lime-400 w-36 h-16 text-white rounded-2xl z-20 -ml-6 font-bold"
             >
               <div className="flex gap-7 justify-start ml-4">
                 <HiOutlineLightBulb className="text-2xl" />
