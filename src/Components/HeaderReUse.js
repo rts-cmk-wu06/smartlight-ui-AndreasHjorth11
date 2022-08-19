@@ -56,22 +56,16 @@ const Header = () => {
         transition={{ ease: "easeOut", duration: 1.5 }}
         className="flex gap-2 ml-[384px] mt-40 max-h-24 items-center"
       >
-        <button className="bg-white text-black text-center text-base h-11 w-36 rounded-xl">
+        <button className="bg-white text-black ml-5 text-center text-base h-11 w-36 rounded-xl">
           <div className="flex font-semibold justify-evenly">
             <HiOutlineLightBulb className="text-2xl" />
             Main Light
           </div>
         </button>
-        <button className="bg-backGround text-white text-center text-base h-11 w-36 rounded-xl">
-          <div className="flex font-semibold justify-evenly">
-            <HiOutlineLightBulb className="text-2xl" />
-            Desk Light
-          </div>
-        </button>
         <button className="bg-white text-black text-center text-base h-11 w-36 rounded-xl">
           <div className="flex font-semibold justify-evenly">
             <HiOutlineLightBulb className="text-2xl" />
-            Bed Light
+            Desk Light
           </div>
         </button>
       </motion.div>
